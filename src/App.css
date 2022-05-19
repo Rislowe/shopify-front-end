@@ -1,0 +1,30 @@
+#app
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#promptForm
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#submitButton
+{
+    width: 80px;
+    height: 30px;
+    align-self: flex-end;
+    background-color: #2b3ff3;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#submitButton:hover
+{
+    background-color: #ffa500;
+    cursor: pointer;
+}
